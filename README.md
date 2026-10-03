@@ -24,3 +24,26 @@ A Lean 4 formalization of the main constructions, boundary value problem equival
 ```bash
 lake exe cache get
 lake env lean Stanczy2001.lean
+
+## Citation
+
+If you use this Lean 4 formalization in your research, please cite both the original paper and this repository:
+
+```bibtex
+@misc{stanczy2026lean,
+  author       = {Stańczy, Robert},
+  title        = {Lean 4 Formalization of Nonlocal Elliptic Equations},
+  year         = {2026},
+  howpublished = {\url{[https://github.com/TwojaNazwaUzytkownika/Stanczy2001](https://github.com/TwojaNazwaUzytkownika/Stanczy2001)}},
+  note         = {Verified in Lean 4.35.0-rc3 with Mathlib}
+}
+
+@article{stanczy2001nonlocal,
+  author  = {Stańczy, Robert},
+  title   = {Nonlocal elliptic equations},
+  journal = {Nonlinear Analysis: Theory, Methods \& Applications},
+  volume  = {47},
+  number  = {5},
+  pages   = {3579--3584},
+  year    = {2001}
+}
