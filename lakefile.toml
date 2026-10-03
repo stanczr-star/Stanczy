@@ -1,0 +1,16 @@
+Ini, TOML
+name = "Stanczy2001"
+version = "0.1.0"
+defaultTargets = ["Stanczy2001"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "8e30cac82f69c18f6cbe88799bdc3ebd74cc592d"
+
+[[lean_lib]]
+name = "Stanczy2001"
