@@ -24,6 +24,7 @@ A Lean 4 formalization of the main constructions, boundary value problem equival
 ```bash
 lake exe cache get
 lake env lean Stanczy2001.lean
+```
 
 ## Citation
 
