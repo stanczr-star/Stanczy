@@ -35,7 +35,7 @@ If you use this Lean 4 formalization in your research, please cite both the orig
   author       = {Stańczy, Robert},
   title        = {Lean 4 Formalization of Nonlocal Elliptic Equations},
   year         = {2026},
-  howpublished = {\url{[https://github.com/stanczr-star/Stanczy2001](https://github.com/stanczr-star/Stanczy2001)}},
+  howpublished = {\url{[https://github.com/stanczr-star/Stanczy](https://github.com/stanczr-star/Stanczy)}},
   note         = {Verified in Lean 4.35.0-rc3 with Mathlib}
 }
 
